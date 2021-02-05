@@ -7707,6 +7707,16 @@ h4, .h4 {
       @media (max-width: 767.98px) {
         .hrw figcaption p {
           font-size: 1.1rem; } }
+  .hrw .hrw-card:first-of-type .hrw-card__list {
+    margin-right: 40px; }
+    @media (max-width: 991.98px) {
+      .hrw .hrw-card:first-of-type .hrw-card__list {
+        margin-right: 0; } }
+  .hrw .hrw-card:last-of-type .hrw-card__list {
+    margin-left: 40px; }
+    @media (max-width: 991.98px) {
+      .hrw .hrw-card:last-of-type .hrw-card__list {
+        margin-left: 0; } }
 
 .rec {
   padding: 120px 0; }
